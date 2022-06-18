@@ -1,16 +1,8 @@
-# flutter_application_2
+# Low Cost Serving Robot
+We have build the cost of serving robot framework which will help us promote social distancing while serving food in resturant or hospital.
+1. Customer will come to restuant and place the order through our app.
+2. All details will be stored in the database.
+3. Then chef will prepare the food 
+4. Robot will go to that table and serve the food
+5. Then we will collect the feedback and use that in data analysis
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
