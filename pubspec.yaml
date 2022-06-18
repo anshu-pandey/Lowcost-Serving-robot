@@ -1,0 +1,175 @@
+name: flutter_application_2
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0-80.1.beta <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.0.0+1
+  introduction_screen: ^3.0.0
+  flutter_otp_timer: ^0.9.7
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  sms_autofill: ^2.2.0
+  firebase_core: ^1.7.0
+  
+  firebase_auth: "^3.1.3"
+  global_configuration: ^0.1.2
+  logger: ^1.1.0
+  footer: ^0.0.4
+  sqflite: ^2.0.0+3
+  http: ^0.13.4
+  gsheets: ^0.3.2
+  splashscreen: ^1.2.0
+  cloud_firestore: ^3.1.9
+  get: ^4.6.1
+  firebase_messaging: ^11.2.7
+  uuid: ^3.0.6
+  equatable: ^2.0.3
+  razorpay_flutter: "1.1.1"
+  fluttertoast: ^3.1.0
+  flutter_rating_bar: ^4.0.0
+  
+
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logo.png
+    - assets/onboarding_1.png
+    - assets/onboarding_2.png
+    - assets/onboarding_3.png
+    - assets/onboarding_4.png
+    - assets/HOME_SCREEN_SPLASH (1).png
+    - assets/HOME_SCREEN_SPLASH (2).png
+    - assets/HOME_SCREEN_SPLASH (3).png
+    - assets/HOME_SCREEN_SPLASH (4).png
+    - assets/HOME_SCREEN_SPLASH (5).png
+    - assets/HOME_SCREEN_SPLASH (6).png
+    - assets/HOME_SCREEN_SPLASH (7).png
+    - assets/HOME_SCREEN_SPLASH (8).png
+    - assets/indian.png
+    - assets/italian.png
+    - assets/american_fastfood.png
+    - assets/barbeque.png
+    - assets/beverages.png
+    - assets/dessert.png
+    - assets/chinese.png
+    - assets/korean.png
+    - assets/bulb.png
+    - assets/food_menu/india/starter/chicken_tikka.png
+    - assets/food_menu/india/starter/dahi_ke_kabab.png
+    - assets/food_menu/india/starter/fish_tikka.png
+    - assets/food_menu/india/starter/gol_gappe.png
+    - assets/food_menu/india/starter/panner_tikka.png
+    - assets/food_menu/india/starter/pav_bhaji.png
+    - assets/food_menu/india/starter/seekh_kabab.png
+    - assets/food_menu/india/starter/soya_malai_chaap.png
+    - assets/food_menu/india/maincourse/chicken biryani.png
+    - assets/food_menu/india/maincourse/chicken korma.png
+    - assets/food_menu/india/maincourse/dal makhni.png
+    - assets/food_menu/india/maincourse/gatte ki sabzi.png
+    - assets/food_menu/india/maincourse/kadhayi panner.png
+    - assets/food_menu/india/maincourse/mutton biriyani.png
+    - assets/food_menu/india/maincourse/mutton roghan josh.png
+    - assets/food_menu/india/maincourse/palak ki sabzi.png
+    - assets/food_menu/india/maincourse/butter chicken.png
+
+    - assets/food_menu/india/dessert/moong dal ka halwa.png
+      
+    
+    
+    - assets/food_menu/india/dessert/phirni.png
+    - assets/food_menu/india/dessert/gulab jamun.png
+    - assets/food_menu/india/bread/naan.png
+    - assets/food_menu/india/bread/roti.png
+    - assets/food_menu/india/beverage/aam panna.png
+    - assets/food_menu/india/beverage/lassi.png
+    - assets/food_menu/chinese/starter/all veg spring roll.png
+    - assets/food_menu/chinese/starter/chicken spring roll.png
+    - assets/food_menu/chinese/maincourse/Chicken Hakka Noodles.png
+    - assets/food_menu/chinese/maincourse/Chicken in Sweet and Sour Sauce.png
+    - assets/food_menu/chinese/maincourse/Veg Hakka Noodles.png
+    - assets/food_menu/chinese/dessert/Red Been Bun..png
+    - assets/food_menu/chinese/bread/mandarin bread.png
+    - assets/food_menu/chinese/beverage/bubble tea.png
+    
+    - assets/food_menu/italian/starter/red sauce pasta.png
+    - assets/food_menu/italian/starter/white sauce pasta.png
+   
+    - assets/food_menu/italian/maincourse/Chicken Pizza.png
+    - assets/food_menu/italian/maincourse/Neapolitan pizza.png
+    - assets/food_menu/italian/bread/garlic bread.png
+
+    - assets/food_menu/italian/dessert/Mixed-Nut-Milk Panna Cotta.png
+    - assets/food_menu/italian/beverage/Campari & Soda.png 
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+      - family: JosefinSans
+        fonts:
+          - asset: assets/font/JosefinSans-Light.ttf
+          - asset: assets/font/JosefinSans-Regular.ttf
+          - asset: assets/font/JosefinSans-SemiBold.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
