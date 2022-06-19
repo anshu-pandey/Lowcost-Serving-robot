@@ -22,4 +22,9 @@ We have build the cost of serving robot framework which will help us promote soc
 
 <img width="83" alt="robot" src="https://user-images.githubusercontent.com/60535559/174446675-42a2cdf2-ab19-4c89-b8ad-dccd072f5400.png">
 
+**WEB DASHBOARD**
+
+<img src="https://user-images.githubusercontent.com/60535559/174474330-ea66527f-0e57-4b30-95b4-a4d1698629b9.png">
+
+
 
