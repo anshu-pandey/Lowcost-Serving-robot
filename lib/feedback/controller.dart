@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 /// HTTP GET request on Google App Script Web URL and parses response and sends result callback.
 class FormController {
   // Google App Script Web URL.
-  static const String URL = "https://script.google.com/mmjoE3_3J0GsvR8Q/exec";
+  static const String URL = "";
   Uri url = Uri.parse(URL);
   // Success Status Message
   static const STATUS_SUCCESS = "SUCCESS";
