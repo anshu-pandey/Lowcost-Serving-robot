@@ -65,7 +65,7 @@ class payment extends State<loading_screen> {
 
   void openCheckout() {
     var option = {
-      "key": "rzp_test",
+      "key": "",
       "amount": 100,
       "name": user_info.body.name_c.text,
       "description": "Payment for food",
